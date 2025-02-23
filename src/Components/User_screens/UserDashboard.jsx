@@ -143,7 +143,8 @@
     </div>
     );
 
-          
+
+    
     const container = window !== undefined ? () => window().document.body : undefined;
 
     return (
@@ -221,4 +222,4 @@
     window: PropTypes.func,
   };
 
-  export default DashboardScr
+  export default DashboardScreen;
